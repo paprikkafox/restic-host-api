@@ -1,0 +1,9 @@
+go 1.19
+
+use (
+    ./cmd
+    ./internal/models
+    ./internal/connectors
+    ./internal/controllers
+
+)
