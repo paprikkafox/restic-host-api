@@ -5,5 +5,5 @@
 # TO-DO
 
 - Migrate from SQLITE to plain JSON (?)
-- Add support for .json config (remote repo, key-file, restic path)
+- Add support for .json config (remote repo, key-file, restic path) - PART-DONE
 - Add PATH for Restic
