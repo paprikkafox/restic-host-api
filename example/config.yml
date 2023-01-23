@@ -1,0 +1,15 @@
+endpoint:
+  type: "rest"
+  url: "restic.example.org"
+  username: "backup_user"
+  password: "P@$$W0RD"
+repo:
+  name: "backups"
+database:
+  path: "/etc/restic-host-api/database.sql"
+keyfile:
+  path: "/etc/restic-host-api/private.key"
+logfile:
+  path: "/var/log/restic-host-api/app.log"
+responsefile:
+  path: "/var/log/restic-host-api/last_response.json"
